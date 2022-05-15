@@ -1,0 +1,15 @@
+/*
+
+\ = caratére de espace
+<stdio.h> declaração de biblioteca
+
+variável = alocação de espaços na memória.
+3 elementos: nome, tipo e valor.
+    - alguns dos tipos são: int, char, float, double, etc.
+
+momentos do processamento da variável:
+    - declaração (reserva do espaço na memória);
+    - atribuição (especificação do tipo e valor);
+    - inicialização
+
+*/
