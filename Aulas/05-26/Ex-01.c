@@ -49,7 +49,12 @@ int main() {
 		i++;
 		j=1;
 		while(j <= qtdJOG){
-			printf("J%d,", j);
+			printf("J%d", j);
+			if(j!=qtdJOG){
+				printf(",");
+			}else{
+				printf(".");
+			}
 			j++; 
 		}
 		printf("\n");
