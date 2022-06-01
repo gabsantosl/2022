@@ -9,38 +9,31 @@ int main(){
 
     int N1 = 0, N2 = 0, restoN1 = 0, restoN2 = 0, media = 0, cont = 0;
 
-    printf("==== CALCULO DE MEDIA ====\n\n");
+    printf("==== INFORME OS ALGORISMOS QUE DESEJA ====\n");
 
     do{
-        printf("\nInforme o N1: ");
+        printf("\nN1: ");
         scanf("%d", &N1);
-        printf("Informe o N2: ");
+        printf("N2: ");
         scanf("%d", &N2);
         
         restoN1 = N1 % 2;
         restoN2 = N2 % 2;
         media = (N1 + N2) / 2;
-        
+
         if(restoN1 != 0 || restoN2 != 0){
-            while(restoN1 != 0 || restoN2 != 0){
-                printf("\nO sistema aceita somente numeros pares. Informe novos valores.\n");
-                printf("Informe o N1: ");
-                scanf("%d", &N1);
-                printf("Informe o N2: ");
-                scanf("%d", &N2);
-                restoN1 = N1 % 2;
-                restoN2 = N2 % 2;
-            }
-            printf("\nA media dos numeros e %d.", media);
+            printf("\nDeseja inserir mais algorismos?");
+            printf("\n0 - NAO\n1 - SIM");
+            printf("\nR: ");
+            scanf("%d", &cont);
         }else{
-            printf("\nA media dos numeros e %d.", media);
+            printf("\nA media dos algorismos corresponde a %d.\n", media);
+            printf("\nDeseja inserir mais algorismos?");
+            printf("\n0 - NAO\n1 - SIM");
+            printf("\nR: ");
+            scanf("%d", &cont);
         }
-
-        printf("\n\nDeseja realizar outro calculo de media?");
-        printf("\n0 - NAO\n1 - SIM");
-        printf("\nR: ");
-        scanf("%d", &cont);
-
+        
     }while(cont != 0);
     
     return 0;
