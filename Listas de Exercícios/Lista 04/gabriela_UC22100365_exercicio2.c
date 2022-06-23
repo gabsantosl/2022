@@ -3,20 +3,20 @@
 
 /*
 === PESQUISA SOBRE EQUIPES DE FORMULA 1 ===
--   Solicite, inicialmente, a quantidade de pessoas que serão entrevistadas, 
+-   Solicite, inicialmente, a quantidade de pessoas que serÃ£o entrevistadas, 
     devendo esta quantidade ser maior que 5 (cinco) pessoas, e para cada uma 
-    a opinião entre as equipes indicadas acima.
--   Os usuários poderão escolher entre as equipes F = Ferrari, R = Red Bull e 
+    a opiniÃ£o entre as equipes indicadas acima.
+-   Os usuÃ¡rios poderÃ£o escolher entre as equipes F = Ferrari, R = Red Bull e 
     M = Mercedes.  
--   Nesta pesquisa qualquer indicação diferente das opções destas três equipes 
-    será considerada como sendo outra equipe privilegiada diferente destas três. 
--   Em uma nova janela, o programa deverá exibir a quantidade de indicações 
-    recebidas por cada equipe e a quantidade de indicações em outra equipe que 
-    não sejam estas três.
--   Para se verificar que a opinião dos participantes é que outra equipe foi mais
-    privilegiada o algoritmo deverá apresentar a seguinte mensagem “Outra equipe
-    privilegiada”, caso a quantidade das indicações diferentes de F, R e M seja maior
-    que a soma das indicações nas outras três equipes da pesquisa (F, R, M).
+-   Nesta pesquisa qualquer indicaÃ§Ã£o diferente das opÃ§Ãµes destas trÃªs equipes 
+    serÃ¡ considerada como sendo outra equipe privilegiada diferente destas trÃªs. 
+-   Em uma nova janela, o programa deverÃ¡ exibir a quantidade de indicaÃ§Ãµes 
+    recebidas por cada equipe e a quantidade de indicaÃ§Ãµes em outra equipe que 
+    nÃ£o sejam estas trÃªs.
+-   Para se verificar que a opiniÃ£o dos participantes Ã© que outra equipe foi mais
+    privilegiada o algoritmo deverÃ¡ apresentar a seguinte mensagem â€œOutra equipe
+    privilegiadaâ€, caso a quantidade das indicaÃ§Ãµes diferentes de F, R e M seja maior
+    que a soma das indicaÃ§Ãµes nas outras trÃªs equipes da pesquisa (F, R, M).
 */
 
 int main(){
