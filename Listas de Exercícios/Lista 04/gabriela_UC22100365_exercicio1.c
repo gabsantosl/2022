@@ -2,24 +2,24 @@
 #include <stdlib.h>
 
 /*
-Desenvolva um algoritmo que solicitará a uma única pessoa a quantidade de metros cúbicos (m3) que ela
-consome por mês e identificará a sua categoria de consumo, respeitando as definições a seguir:
+Desenvolva um algoritmo que solicitarÃ¡ a uma Ãºnica pessoa a quantidade de metros cÃºbicos (m3) que ela
+consome por mÃªs e identificarÃ¡ a sua categoria de consumo, respeitando as definiÃ§Ãµes a seguir:
 	
 	Menor ou igual a 2,1 m3 BAIXO
 	Maior que 2,1 m3 e menor ou igual a 6,1 m3 NORMAL
 	Maior que 6,1 m3 e menor ou igual a 10,5 m3 ALTO
 	Maior que 10,5 m3 EXAGERADO                                                    
 	
-	- Solicite ainda o mês e o ano em seu algoritmo para colaborar com esta pesquisa, 
-	validando o mês informado entre 1 para Janeiro, podendo chegar a 12 para Dezembro. 
-	- O valor de consumo em m3 também deve ser validado, podendo ser 0 (zero), sem 
+	- Solicite ainda o mÃªs e o ano em seu algoritmo para colaborar com esta pesquisa, 
+	validando o mÃªs informado entre 1 para Janeiro, podendo chegar a 12 para Dezembro. 
+	- O valor de consumo em m3 tambÃ©m deve ser validado, podendo ser 0 (zero), sem 
 	consumo algum, mas nunca um valor negativo.                                        
-	- Os pesquisadores afirmam que nos anos bissextos o consumo é maior. Por isso 
-	seu algoritmo também deverá apresentar se o ano desta análise é bissexto. O ano 
-	bissexto precisa ser múltiplo de 4 e não múltiplo de 100 ou ainda ser múltiplo de 400.
-	- Mostre, como resultado final, o consumo informado pela pessoa, a sua classificação 
-	por extenso (conforme tabela acima), o mês e ano da pesquisa, além de indicar se o ano 
-	informado é ou não bissexto.
+	- Os pesquisadores afirmam que nos anos bissextos o consumo Ã© maior. Por isso 
+	seu algoritmo tambÃ©m deverÃ¡ apresentar se o ano desta anÃ¡lise Ã© bissexto. O ano 
+	bissexto precisa ser mÃºltiplo de 4 e nÃ£o mÃºltiplo de 100 ou ainda ser mÃºltiplo de 400.
+	- Mostre, como resultado final, o consumo informado pela pessoa, a sua classificaÃ§Ã£o 
+	por extenso (conforme tabela acima), o mÃªs e ano da pesquisa, alÃ©m de indicar se o ano 
+	informado Ã© ou nÃ£o bissexto.
 */
 
 int main() {
